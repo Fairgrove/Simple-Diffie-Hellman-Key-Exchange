@@ -1,5 +1,5 @@
 # Simple-Diffie-Hellman-Key-Exchange
-Hey!
+Hey! \
 This is a simple demonstration of the Diffie-Hellman Key Exchange method. This method of securing communication uses a 'easy to cipher, hard to decipher' principle, by using maths!
 
 The math behind it is the following:\
