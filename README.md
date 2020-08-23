@@ -1,8 +1,11 @@
 # Simple-Diffie-Hellman-Key-Exchange
 Hey!
-This is a simple demonstration of the Diffie-Hellman Key Exchange method. This method of securing communication uses a 'easy to cipher, hard to decipher' principle, by using maths!\nThe math behind it is the following:
+This is a simple demonstration of the Diffie-Hellman Key Exchange method. This method of securing communication uses a 'easy to cipher, hard to decipher' principle, by using maths!
+The math behind it is the following:
 
-First a public generator and prime modulus is decided for communication\nthen, each party chooses a private key which is used to generates a public key, using the generator and prime modulus... like so: 
+First a public generator and prime modulus is decided for communication.
+Then, each party chooses a private key which is used to generate their own public key, using the generator and prime modulus... 
+Like so: 
 
 ```publicKey = generator ^ (privateKey) mod primeModulus```
 
